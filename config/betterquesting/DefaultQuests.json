@@ -1,0 +1,3731 @@
+{
+  "build:8": "4.1.0",
+  "format:8": "2.0.0",
+  "questDatabase:9": {
+    "0:10": {
+      "preRequisites:11": [
+        39
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "When I was a young boy My father took me to the Greg, to see an LCR He said \"soon when you grow up, would you be, the creator of a mark III, A sun down on earth?\" He said \"Will you, finish it, the long craft and all the boring recipes and all the passive stuff?\", \"Because one day, you would need more reactors, to lead you into the sun, and join into the Greg\".",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:grass"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Good evening Sire",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 465,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "terminal:10": {
+                  "_creative:1": 1
+                }
+              }
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1:10": {
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Sire, you shall acquire some logs",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "logWood",
+            "id:8": "minecraft:log"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Get some logs",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:cookie"
+            }
+          },
+          "index:3": 1,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": "logWood",
+              "id:8": "minecraft:log"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "allowAnvil:1": 0,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "plankWood",
+              "id:8": "minecraft:planks"
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      }
+    },
+    "2:10": {
+      "preRequisites:11": [
+        1
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Sire, you shall craft a workbench",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:crafting_table"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Make a workbench",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 2,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "allowAnvil:1": 0,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "workbench",
+              "id:8": "minecraft:crafting_table"
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      }
+    },
+    "3:10": {
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Sire, you shall craft a pickaxe",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:wooden_pickaxe"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Wooden Pickaxe",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 3,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "allowAnvil:1": 0,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 32767,
+              "OreDict:8": "",
+              "id:8": "minecraft:wooden_pickaxe"
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      }
+    },
+    "4:10": {
+      "preRequisites:11": [
+        3
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Sire, you shall obtain plenty of cobblestone in order to create some furnaces",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "craftingFurnace",
+            "id:8": "minecraft:furnace"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Mine some stone",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 4,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        },
+        "1:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:stone_pickaxe"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "harvestcraft:hamburgeritem"
+            }
+          },
+          "index:3": 1,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "blocks:9": {
+            "0:10": {
+              "amount:3": 8,
+              "blockID:8": "minecraft:stone",
+              "meta:3": -1,
+              "nbt:10": {},
+              "oreDict:8": "stone"
+            }
+          },
+          "index:3": 0,
+          "taskID:8": "bq_standard:block_break"
+        },
+        "1:10": {
+          "allowAnvil:1": 0,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "craftingFurnace",
+              "id:8": "minecraft:furnace"
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      }
+    },
+    "5:10": {
+      "preRequisites:11": [
+        4
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Sire, it is urgent for thou to obtain a stone pickaxe in order to unlock the possibility of mining ores",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:stone_pickaxe"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Stone Pickaxe",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 5,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:stone_pickaxe"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "6:10": {
+      "preRequisites:11": [
+        5
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Sire, you shall obtain some folk ores in the mines in order to progress",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:iron_ore"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Folk ores",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 6,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 5,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": "oreIron",
+              "id:8": "gregtech:ore_iron_0"
+            },
+            "1:10": {
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": "oreTin",
+              "id:8": "gregtech:ore_tin_0"
+            },
+            "2:10": {
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": "oreCopper",
+              "id:8": "gregtech:ore_copper_0"
+            },
+            "3:10": {
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": "oreChalcopyrite",
+              "id:8": "gregtech:ore_chalcopyrite_0"
+            },
+            "4:10": {
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": "oreRedstone",
+              "id:8": "gregtech:ore_redstone_0"
+            },
+            "5:10": {
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_cassiterite_0"
+            },
+            "6:10": {
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": "oreGold",
+              "id:8": "gregtech:ore_gold_0"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        }
+      }
+    },
+    "7:10": {
+      "preRequisites:11": [
+        8
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Sire, you shall assemble these superior tools for thyself",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "gregtech:pickaxe",
+            "tag:10": {
+              "DisallowContainerItem:1": 0,
+              "GT.Behaviours:10": {
+                "TorchPlacing:1": 1
+              },
+              "GT.Tool:10": {
+                "AttackDamage:5": 3.0,
+                "AttackSpeed:5": -2.8,
+                "Durability:3": 0,
+                "HarvestLevel:3": 2,
+                "Material:8": "gregtech:iron",
+                "MaxDurability:3": 255,
+                "ToolSpeed:5": 6.0
+              },
+              "HideFlags:3": 2
+            }
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Better tools",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 7,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "allowAnvil:1": 0,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "toolMiningHammer",
+              "id:8": "gregtech:mining_hammer",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {
+                  "AoEColumn:3": 1,
+                  "AoELayer:3": 0,
+                  "AoERow:3": 1,
+                  "MaxAoEColumn:3": 1,
+                  "MaxAoELayer:3": 0,
+                  "MaxAoERow:3": 1,
+                  "TorchPlacing:1": 1
+                },
+                "GT.Tool:10": {
+                  "AttackDamage:5": 3.5,
+                  "AttackSpeed:5": -3.2,
+                  "Durability:3": 0,
+                  "HarvestLevel:3": 2,
+                  "Material:8": "gregtech:iron",
+                  "MaxDurability:3": 767,
+                  "ToolSpeed:5": 4.8
+                },
+                "HideFlags:3": 2
+              }
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "toolShovel",
+              "id:8": "gregtech:shovel",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "GT.Tool:10": {
+                  "AttackDamage:5": 3.5,
+                  "AttackSpeed:5": -3.0,
+                  "Durability:3": 0,
+                  "HarvestLevel:3": 2,
+                  "Material:8": "gregtech:iron",
+                  "MaxDurability:3": 255,
+                  "ToolSpeed:5": 6.0
+                },
+                "HideFlags:3": 2
+              }
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "toolHoe",
+              "id:8": "gregtech:hoe",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "GT.Tool:10": {
+                  "AttackDamage:5": 0.0,
+                  "AttackSpeed:5": -1.0,
+                  "Durability:3": 0,
+                  "Material:8": "gregtech:iron",
+                  "MaxDurability:3": 255
+                },
+                "HideFlags:3": 2
+              }
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "toolAxe",
+              "id:8": "gregtech:axe",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {
+                  "DisableShields:1": 1,
+                  "TreeFelling:1": 1
+                },
+                "GT.Tool:10": {
+                  "AttackDamage:5": 7.0,
+                  "AttackSpeed:5": -3.2,
+                  "Durability:3": 0,
+                  "HarvestLevel:3": 2,
+                  "Material:8": "gregtech:iron",
+                  "MaxDurability:3": 255,
+                  "ToolSpeed:5": 4.0
+                },
+                "HideFlags:3": 2
+              }
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      }
+    },
+    "8:10": {
+      "preRequisites:11": [
+        6
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "OMG😲😲 IS THAT👉 A MOTHER👨‍👩‍👧‍👦FUCKING😊 🌟GREGTECH🌟🔧🔧🔧🔧 REFERENCE!??!?!? GregTech🔧🔧🔧🔧 is the best mod ever made!!!! 🏆🏆GregoriousT for universe leadership 2030 🪐🌌 👑👑👑When the 只有格雷格。 is greggy! 🔧🛠️🔧🛠️🔧🛠️🔧🛠️ Ultra super mega extreme voltage tier 😳😳😳Death😵 by electrocution🔌 and vaporizing 🔥😄😄😄💀💀I have spent 1000 hours on GT:NH 😄🙂😐😕☹️💀What is grass??? 🌳🌲🌳🌲Sex and cum on behalf of Regian24 🥛😄GregTech 7 📣📣📣I am diagnosed with 17 separate mind conditions👍👍👍🏥",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "gregtech:hammer",
+            "tag:10": {
+              "DisallowContainerItem:1": 0,
+              "GT.Behaviours:10": {},
+              "GT.Tool:10": {
+                "AttackDamage:5": 3.0,
+                "AttackSpeed:5": -2.8,
+                "Durability:3": 0,
+                "HarvestLevel:3": 2,
+                "Material:8": "gregtech:iron",
+                "MaxDurability:3": 255,
+                "ToolSpeed:5": 6.0
+              },
+              "HideFlags:3": 2
+            }
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Gregtech shit",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 8,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "allowAnvil:1": 0,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "toolHammer",
+              "id:8": "gregtech:hammer",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "GT.Tool:10": {
+                  "AttackDamage:5": 3.0,
+                  "AttackSpeed:5": -2.8,
+                  "Durability:3": 0,
+                  "HarvestLevel:3": 2,
+                  "Material:8": "gregtech:iron",
+                  "MaxDurability:3": 255,
+                  "ToolSpeed:5": 6.0
+                },
+                "HideFlags:3": 2
+              }
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "toolWireCutter",
+              "id:8": "gregtech:wire_cutter",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "GT.Tool:10": {
+                  "AttackDamage:5": 1.0,
+                  "AttackSpeed:5": -2.4,
+                  "Durability:3": 0,
+                  "HarvestLevel:3": 2,
+                  "Material:8": "gregtech:iron",
+                  "MaxDurability:3": 255,
+                  "ToolSpeed:5": 6.0
+                },
+                "HideFlags:3": 2
+              }
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "toolMallet",
+              "id:8": "gregtech:mallet",
+              "tag:10": {
+                "GT.Behaviours:10": {},
+                "GT.Tool:10": {
+                  "AttackDamage:5": 1.0,
+                  "AttackSpeed:5": -2.4,
+                  "Durability:3": 0,
+                  "HarvestLevel:3": 1,
+                  "Material:8": "wood",
+                  "MaxDurability:3": 48,
+                  "ToolSpeed:5": 4.0
+                },
+                "HideFlags:3": 2
+              }
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "toolScrewdriver",
+              "id:8": "gregtech:screwdriver",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "GT.Tool:10": {
+                  "AttackDamage:5": 1.0,
+                  "AttackSpeed:5": 3.0,
+                  "Durability:3": 0,
+                  "Material:8": "gregtech:iron",
+                  "MaxDurability:3": 255
+                },
+                "HideFlags:3": 2
+              }
+            },
+            "4:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "craftingToolFile",
+              "id:8": "gregtech:file",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "GT.Tool:10": {
+                  "AttackDamage:5": 0.0,
+                  "AttackSpeed:5": -2.4,
+                  "Durability:3": 0,
+                  "Material:8": "gregtech:iron",
+                  "MaxDurability:3": 255
+                },
+                "HideFlags:3": 2
+              }
+            },
+            "5:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "toolSaw",
+              "id:8": "gregtech:saw",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {
+                  "HarvestIce:1": 1
+                },
+                "GT.Tool:10": {
+                  "AttackDamage:5": 1.0,
+                  "AttackSpeed:5": -2.6,
+                  "Durability:3": 0,
+                  "Material:8": "gregtech:iron",
+                  "MaxDurability:3": 255
+                },
+                "HideFlags:3": 2
+              }
+            },
+            "6:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "toolMortar",
+              "id:8": "gregtech:mortar",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "GT.Tool:10": {
+                  "AttackDamage:5": 0.0,
+                  "AttackSpeed:5": -2.4,
+                  "Durability:3": 0,
+                  "Material:8": "gregtech:iron",
+                  "MaxDurability:3": 255
+                },
+                "HideFlags:3": 2
+              }
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      }
+    },
+    "9:10": {
+      "preRequisites:11": [
+        6,
+        4
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Sire, you shall cook up some crude steel and some conduit binder in order to make your first energy conduits",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "enderio:item_endergy_conduit"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Crude Steel, Conduit",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 9,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 3,
+              "Damage:2": 22015,
+              "OreDict:8": "ingotCrudeSteel",
+              "id:8": "gregtech:meta_ingot"
+            },
+            "1:10": {
+              "Count:3": 6,
+              "Damage:2": 22,
+              "OreDict:8": "itemBinderComposite",
+              "id:8": "enderio:item_material"
+            },
+            "2:10": {
+              "Count:3": 6,
+              "Damage:2": 4,
+              "OreDict:8": "itemConduitBinder",
+              "id:8": "enderio:item_material"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "enderio:item_endergy_conduit"
+            },
+            "4:10": {
+              "Count:3": 3,
+              "Damage:2": 335,
+              "OreDict:8": "ingotWroughtIron",
+              "id:8": "gregtech:meta_ingot"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "10:10": {
+      "preRequisites:11": [
+        9
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Sire, this furnace is the same as the normal furnace without any upgrades (other than the fact it uses RF), but if thou apply some upgrades (that use GP) it will be much faster",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "extrautils2:machine",
+            "tag:10": {
+              "Type:8": "extrautils2:furnace"
+            }
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "RF Furnace",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 10,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 3,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "allowAnvil:1": 0,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "extrautils2:machine"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "extrautils2:machine",
+              "tag:10": {
+                "Type:8": "extrautils2:generator"
+              }
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "extrautils2:machine",
+              "tag:10": {
+                "Type:8": "extrautils2:furnace"
+              }
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 9,
+              "OreDict:8": "xuUpgradeBlank",
+              "id:8": "extrautils2:ingredients"
+            },
+            "1:10": {
+              "Count:3": 4,
+              "Damage:2": 6,
+              "OreDict:8": "xuUpgradeSpeed",
+              "id:8": "extrautils2:ingredients"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        }
+      }
+    },
+    "11:10": {
+      "preRequisites:11": [
+        6
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "People, Can you make or update Extra Utilities 2 for my, i play in Minecraft 1.16.5, really i so need ;( pls... In fact, the only thing I need is a mod to store items and search for them through some machine or so, I don\u0027t want the whole mod :v",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "extrautils2:resonator"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Resonator",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 11,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "allowAnvil:1": 0,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "extrautils2:glasscutter"
+            },
+            "1:10": {
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "extrautils2:endershard"
+            },
+            "2:10": {
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "extrautils2:ingredients"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "extrautils2:resonator"
+            },
+            "4:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "extrautils2:ingredients"
+            },
+            "5:10": {
+              "Count:3": 1,
+              "Damage:2": 7,
+              "OreDict:8": "",
+              "id:8": "extrautils2:passivegenerator"
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      }
+    },
+    "12:10": {
+      "preRequisites:11": [
+        11
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The most folk source of GP is flowing water",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": "",
+            "id:8": "extrautils2:passivegenerator"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "GP",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 12,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 8,
+              "Damage:2": 3,
+              "OreDict:8": "",
+              "id:8": "extrautils2:decorativesolid"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "allowAnvil:1": 0,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": "",
+              "id:8": "extrautils2:passivegenerator"
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      }
+    },
+    "13:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:nether_star"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 13,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "14:10": {
+      "preRequisites:11": [
+        8
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Sire, you can macerate your copper and tin ingots with a mortar and pestle, mix the dusts, and fire the mix up in a furnace in order to get bronze ingots",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 260,
+            "OreDict:8": "ingotBronze",
+            "id:8": "gregtech:meta_ingot"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Bronze",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 14,
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "ganjacraft:indicaspliff"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "ganjacraft:sativa_spliff"
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 3,
+              "Damage:2": 25,
+              "OreDict:8": "dustCopper",
+              "id:8": "gregtech:meta_dust"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 112,
+              "OreDict:8": "dustTin",
+              "id:8": "gregtech:meta_dust"
+            },
+            "2:10": {
+              "Count:3": 4,
+              "Damage:2": 260,
+              "OreDict:8": "dustBronze",
+              "id:8": "gregtech:meta_dust"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 260,
+              "OreDict:8": "ingotBronze",
+              "id:8": "gregtech:meta_ingot"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "15:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "one time i was eating chicken wings beside tenz at a pub in canada, and he is wearing white sweatpants and the black and red SEN jersey and i was eating a flat and i took a bite out of it and the bone popped out and flip up in the air, and i swore to god that time slow down and i was like \"omg holy shit, somebody stop this\", i couldnt react whilst watching the bone spinning around and then the chicken wing drops but tenz moves his leg away while the bone was split-second away from touching his white sweatpants and i look dead in his eyes and said \"omg dude, im so sorry\" and tenz that totally silence all the time while enjoying his borovička look over towards me and said \"i knew it would happen\" then look away, stood up and walk off, i never been so awe in my life and then i knew this guy is and will be a great valorant player, this guy is cold as fuck like his in-game name and he is fast as hell its how he dodges the chicken wing bone and its how he fucked 100t balls deep while keeping his composure, its no coincidence, im telling you its all interconnected because what kind of person you\u0027re in real life, translated to how you are as a player in valorant.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "extrautils2:chickenring"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Chicken Wing Ring",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 15,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "harvestcraft:friedchickenitem"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "allowAnvil:1": 0,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "extrautils2:goldenlasso"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "extrautils2:chickenring"
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      }
+    },
+    "16:10": {
+      "preRequisites:11": [
+        6
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Sire, if you may, I suggest you craft these tools to make construction work easier",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "extrautils2:itembuilderswand"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Building tools",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 16,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "allowAnvil:1": 0,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 1,
+              "OreDict:8": "blockMagicalWood",
+              "id:8": "extrautils2:decorativesolidwood"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "extrautils2:itembuilderswand"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "extrautils2:itemdestructionwand"
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      }
+    },
+    "17:10": {
+      "preRequisites:11": [
+        15
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Fun squid penis fact: The squid\u0027s penis is contained within its mantle, a hollow cavity with only one opening: The siphon. The siphon is a muscular organ which sucks in water and then shoots the water out along with anything else in mantle--which is how squids swim, as well as shit, as well as breathe, as well as shoot ink (squid anatomy is weird). For the penis to go through the siphon, it has to massively enlarge in both girth and length when erect, in some species becoming as long as the squid itself so that it may emerge through the siphon and enter the siphon of a female to ejaculate.\n\nImagine you didn\u0027t have a dick and balls where you have them. You spread your asschecks to present your butthole to your partner. Then, a two foot long dick emerged through your butthole to penetrate your partner. That is how many squids have sex.\n\nIn most species, though, squid sex is way weirder. The penis is able to roll up all the sperm into a sticky glob, which the squid then grabs with one of its tentacles so that he can manually place it within the female. Once inside the female, this glob bursts open to fertilize her egg cells.\n\nImagine that you didn\u0027t have a dick and balls where you have them. You spread your asschecks to show your butthole to your partner. You then shit out a worm-shaped glob of cum, picked up that glob, stuck your hand up your partner\u0027s vagina, at which point the glob explodes. That is how most squids have sex.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": "",
+            "id:8": "extrautils2:chickenring"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Ring of the flying squid",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 17,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "allowAnvil:1": 0,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "extrautils2:chickenring"
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      }
+    },
+    "18:10": {
+      "preRequisites:11": [
+        7
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Sire, descend the mines and explore the cave systems to locate the diamonds",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:diamond"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Diamonds",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 18,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 3,
+              "Damage:2": 0,
+              "OreDict:8": "gemDiamond",
+              "id:8": "minecraft:diamond"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "19:10": {
+      "preRequisites:11": [
+        18
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Sire, you shall acquire some obsidian and build a nether portal",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:obsidian"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Nether",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 19,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 14,
+              "Damage:2": 0,
+              "OreDict:8": "blockObsidian",
+              "id:8": "minecraft:obsidian"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "20:10": {
+      "preRequisites:11": [
+        19
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Sire, thou shall slay the wither skeletons of the nether fortress and obtain the drop of evil",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 10,
+            "OreDict:8": "",
+            "id:8": "extrautils2:ingredients"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Drop of evil",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 20,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 10,
+              "OreDict:8": "dropofevil",
+              "id:8": "extrautils2:ingredients"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "21:10": {
+      "preRequisites:11": [
+        20,
+        17
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "I sent an angel to watch over you last night, but it came back and I asked, \"Why?\" The angel said, \"Angels don\u0027t watch over angels!\" Twenty angels are in your world. Ten of them are sleeping, nine of them are playing and one of them is reading this message. God has seen you struggling with some things and God says it\u0027s over. A blessing is coming your way. If you believe in God send this th 14 friends, including me. If I don\u0027t get it back, I guess I\u0027m not one of them. As soon as you get 5 replies, someone you love will quietly surprise you...not joking. Pass this message on. Please don\u0027t ignore it. You are being tested and God is going to fix two big things in your favor. If you believe in God, drop everything and pass it on. Tomorrow will be the best day of your life.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "extrautils2:angelring"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Angel ring",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 21,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "ganjacraft:magiccookie"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "allowAnvil:1": 0,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "extrautils2:goldenlasso"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "extrautils2:angelring"
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      }
+    },
+    "22:10": {
+      "preRequisites:11": [
+        1
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Question for those in chat: Let\u0027s say you are sleeping in bed with your parents. You are in the middle. You wake up and want to get up, but you notice that you are partially inserted into your mom and your dad is partially inserted into you and they are still asleep. Which way do you thrust to get out?",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 14,
+            "OreDict:8": "",
+            "id:8": "minecraft:bed"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Bed",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 22,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "allowAnvil:1": 0,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 32767,
+              "OreDict:8": "",
+              "id:8": "minecraft:bed"
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      }
+    },
+    "23:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "What\u0027s your guy\u0027s favorite thing to get for lunch?\n\nFor me, it\u0027s the McChicken. The best fast food sandwich. I even ask for extra McChicken sauce packets and the staff is so friendly and more than willing to oblige.\n\nOne time I asked for McChicken sauce packets and they gave me three. I said, \"Wow, three for free!\" and the nice friendly McDonald\u0027s worker laughed and said, \"I\u0027m going to call you 3-for-free!\".\n\nNow the staff greets me with \"hey it\u0027s 3-for-free!\" and ALWAYS give me three packets. It\u0027s such a fun and cool atmosphere at my local McDonald\u0027s restaurant, I go there at least 3 times a week for lunch and a large iced coffee with milk instead of cream, 1-2 times for breakfast on the weekend, and maybe once for dinner when I\u0027m in a rush but want a great meal that is affordable, fast, and can match my daily nutritional needs.\n\nI even dip my fries in McChicken sauce, it\u0027s delicious! What a great restaurant.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "spiceoflife:lunchbox"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Lunch Box",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 23,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "allowAnvil:1": 0,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "spiceoflife:lunchbox"
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      }
+    },
+    "24:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "🆗 son, 🌞 there ain\u0027t❌❌a ☝single☝fucking☝person☝ with any intellect👓👓📖who gives a 🎮remote🎮fuck🎮about your extensive vaping💯😎💨 talent. 😂I happen to be quite🎩the🎩intellectual🎩myself, so I can confirm✔✔this fact💯as truth™.👌if👌you👌think👌 that your vape💯😎💨 is going↗to get you hoes👯👯, you are utterly🐄 mistaken❌, fam👪. my pa👨 once taught📖 me the 😏secret😏 of life👍💛, and it was not❌❌ your vape💯😎💨 🆗🆒now listen 👂👂here my chum✌✌, my pa👨 was a man who kept it 💯💯💯💯💯💯. ✋that✋is✋six✋fucking✋hundreds✋ and he never❌🙅🙅 once vaped💯😎💨. The man 🚬smoked🚬some🚬mad🚬cigars🚬 because he wasnt❌the pussy🐱🐱you are🆗⁉❗⁉ he lived to be 💯 because he kept it 💯💯💯💯💯💯 and killed🔫🔪 👌every👌vaping👌fucker👌he👌saw👌🆗🆒😂😂👀👀 so in the spirit👻of me good ol pa👨, I think💭you should kys🔫 they have 🆓 vapes💯😎💨 in hell🔥and🔥it\u0027s🔥lit🔥for😂 unintelligent vaping💯😎💨 hooligans like yourself👌😂😂",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "idk:itemvape"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Vape",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 24,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "forge:bucketfilled",
+              "tag:10": {
+                "Amount:3": 1000,
+                "FluidName:8": "liquid_vape"
+              }
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "allowAnvil:1": 0,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "idk:blockblender"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "idk:itemvape"
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      }
+    },
+    "25:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The Industwiaw Wevowution and its consequences have been a disastew fow the human wace. They have gweatwy incweased the wife-expectancy of those of us who wive in “advanced” countwies, but they have destabiwized society, have made wife unfuwfiwwing, have subjected human beings to indignities, have wed to widespwead psychowogicaw suffewing (in the Thiwd Wowwd to physicaw suffewing as weww) and have infwicted sevewe damage on the natuwaw wowwd. The continued devewopment of technowogy wiww wowsen the situation. It wiww cewtainwy subject human being to gweatew indignities and infwict gweatew damage on the natuwaw wowwd, it wiww pwobabwy wead to gweatew sociaw diswuption and psychowogicaw suffewing, and it may wead to incweased physicaw suffewing even in “advanced” countwies. The industwiaw-technowogicaw system may suwvive ow it may bweak down. If it suwvives, it MAY eventuawwy achieve a wow wevew of physicaw and psychowogicaw suffewing, but onwy aftew passing thwough a wong and vewy painfuw pewiod of adjustment and onwy at the cost of pewmanentwy weducing human beings and many othew wiving owganisms to engineewed pwoducts and mewe cogs in the sociaw machine. Fuwthewmowe, if the system suwvives, the consequences wiww be inevitabwe: Thewe is no way of wefowming ow modifying the system so as to pwevent it fwom depwiving peopwe of dignity and autonomy. If the system bweaks down the consequences wiww stiww be vewy painfuw. But the biggew the system gwows the mowe disastwous the wesuwts of its bweakdown wiww be, so if it is to bweak down it had best bweak down soonew wathew than watew. We thewefowe advocate a wevowution against the industwiaw system. This wevowution may ow may not make use of viowence; it may be sudden ow it may be a wewativewy gwaduaw pwocess spanning a few decades. We can’t pwedict any of that. But we do outwine in a vewy genewaw way the measuwes that those who hate the industwiaw system shouwd take in owdew to pwepawe the way fow a wevowution against that fowm of society. This is not to be a POWITICAW wevowution. Its object wiww be to ovewthwow not govewnments but the economic and technowogicaw basis of the pwesent society. In this awticwe we give attention to onwy some of the negative devewopments that have gwown out of the industwiaw-technowogicaw system. Othew such devewopments we mention onwy bwiefwy ow ignowe awtogethew. This does not mean that we wegawd these othew devewopments as unimpowtant. Fow pwacticaw weasons we have to confine ouw discussion to aweas that have weceived insufficient pubwic attention ow in which we have something new to say. Fow exampwe, since thewe awe weww-devewoped enviwonmentaw and wiwdewness movements, we have wwitten vewy wittwe about enviwonmentaw degwadation ow the destwuction of wiwd natuwe, even though we considew these to be highwy impowtant.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": "",
+            "id:8": "gregtech:steam_casing"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Bronze Hull",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 25,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 260,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_stick_long"
+            },
+            "1:10": {
+              "Count:3": 5,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "allowAnvil:1": 0,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:steam_casing"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:steam_casing"
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      }
+    },
+    "26:10": {
+      "preRequisites:11": [
+        25
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Burn solid fuel (like coal for example) in it for steam",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Solid fuel steam boiler",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 26,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "allowAnvil:1": 0,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      }
+    },
+    "27:10": {
+      "preRequisites:11": [
+        25
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Use liquids like lava for steam",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 5,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Liquid steam boiler",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 27,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "allowAnvil:1": 0,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 5,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      }
+    },
+    "28:10": {
+      "preRequisites:11": [
+        25
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Use the SUN for steam (best steam method)",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Solar steam boiler",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 28,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "allowAnvil:1": 0,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      }
+    },
+    "29:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Hey you. You wanna drink something the dinosaurs drank?\n\nYou wanna drink what Micheal Jackson drank? What Freddie Mercury, Van Gogh, Shakespeare and Moses? You wanna be cool like them?\n\nDrink some water. It\u0027s the latest trend that EVERYONE is doing.\n\nBe healthy and drink this amazing liquid that has been here since the dawn of time, and still works properly. Something that every living being on earth has had contact with, since the very beginning.\n\nI mean how cool is that? That\u0027s really awesome and you know it.\n\nSo why don\u0027t you drink some water right now and think about how you are doing the exact same thing as others have done in millions of years. Drinking water.\n\nDrink water and be one of the cool kids.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:water_bucket"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "DONT FORGET WATER IN BOILER!!! THIS IS NOT AFRICA",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 29,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "30:10": {
+      "preRequisites:11": [
+        26,
+        27,
+        28
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Ah, the Steam Age in GregTech! You young whippersnappers with your fancy machines don\u0027t know the struggle we had back in the day. It was a time when coal was more precious than diamonds, and every step you took required manual labor harder than mining bedrock with a wooden pickaxe.\n\n[Insert Drake Hotline Bling image here]\n\n🎵\"Steam Age, Steam Age, got me workin\u0027 in a cage,\nGotta crank that boiler, gotta earn that wage,\nModded Minecraft, got me in a rage,\nBut GregTech\u0027s the way, in every age!\" 🎵\n\nRemember when crafting a single machine meant digging to bedrock, climbing the highest mountains, and sacrificing a dozen cows just to get enough resources? And then, there was that sweet, sweet sound of your steam engine chugging away.\n\n[Insert \"Running in the 90s\" meme]\n\n🎵\"I\u0027m runnin\u0027 on Steam, like I\u0027m in a dream,\nTurning ores into bars, it\u0027s a team,\nGregTech\u0027s the meme, but it\u0027s not what it seems,\nWe\u0027re living in a steam-powered dream!\" 🎵\n\nAnd don\u0027t get me started on the sound of steam escaping from your pipes, it\u0027s like music to my ears. Who needs Spotify when you have that sweet, sweet hiss?\n\n[Insert \"This is fine\" dog meme]\n\n🎵\"My setup\u0027s a mess, it\u0027s a total distress,\nBut I\u0027ll make it work, I\u0027m in GregTech\u0027s caress,\nI may be stressed, but I digress,\nIn the Steam Age, I\u0027m a real progress!\" 🎵\n\nSo next time you complain about the grind in Minecraft, just remember the pioneers of the Steam Age. We paved the way for your fancy contraptions and automatic machines. Respect your GregTech elders, kiddos!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "gregtech:boiler_casing"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Steam Machinery",
+          "questlogic:8": "OR",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 30,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "31:10": {
+      "preRequisites:11": [
+        30
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "You can use the macerator to double your ore",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 9,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Ore Doubling",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 31,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "allowAnvil:1": 0,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      }
+    },
+    "32:10": {
+      "preRequisites:11": [
+        34,
+        29
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "You can make this primitive water pump to get infinite water. Amount of water pumped/s depends on biome.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1648,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Infinite Water",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 32,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "allowAnvil:1": 0,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 10,
+              "Damage:2": 4,
+              "OreDict:8": "",
+              "id:8": "gregtech:steam_casing"
+            },
+            "1:10": {
+              "Count:3": 10,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_block_frame_103"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 1649,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 1648,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      }
+    },
+    "33:10": {
+      "preRequisites:11": [
+        36
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Coke oven allows you to turn coal into more efficient coke and also makes creosote in the process",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1017,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Coke Oven",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 33,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "1:10": {
+              "Count:3": 8,
+              "Damage:2": 319,
+              "OreDict:8": "gemCoke",
+              "id:8": "gregtech:meta_gem"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 116,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "modpack:cokeclaymixture"
+            },
+            "1:10": {
+              "Count:3": 116,
+              "Damage:2": 353,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "allowAnvil:1": 0,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 29,
+              "Damage:2": 8,
+              "OreDict:8": "",
+              "id:8": "gregtech:metal_casing"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 1017,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        },
+        "2:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1018,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        }
+      }
+    },
+    "34:10": {
+      "preRequisites:11": [
+        33
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Make these by treating wood with creosote oil",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": "",
+            "id:8": "gregtech:planks"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Treated wood planks",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 34,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 8,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:planks"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "35:10": {
+      "preRequisites:11": [
+        34
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "This tank can be used to store large amounts of creosote oil",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1597,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Wooden Multiblock Tank",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 35,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "allowAnvil:1": 0,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 26,
+              "Damage:2": 5,
+              "OreDict:8": "",
+              "id:8": "gregtech:steam_casing"
+            },
+            "1:10": {
+              "Count:3": 2,
+              "Damage:2": 1596,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 1597,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      }
+    },
+    "36:10": {
+      "preRequisites:11": [
+        30
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Compressor is used to make bricks and other shit",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 11,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Steam Compressor",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 36,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "allowAnvil:1": 0,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 11,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      }
+    },
+    "37:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:nether_star"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 37,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "38:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Hook allows for better movement shits",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 4,
+            "OreDict:8": "",
+            "id:8": "hooked:hook"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Ender Hook",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 38,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "allowAnvil:1": 0,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 4,
+              "OreDict:8": "",
+              "id:8": "hooked:hook"
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      }
+    },
+    "39:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "In the annals of antiquity, there once resided an erudite individual by the name of \u0027neeols.\u0027 He possessed an insatiable curiosity, fervently immersing himself in esoteric pursuits as he meticulously manipulated his venerable abacus and honed his consummate expertise in the art of mindlessly farming melons.\n\nThen, serendipity graced the cobblestone streets of Germany during his vacay from his 9/5 occupation, as neeols serendipitously crossed paths with a gentleman known as Greg. Exuding an aura of conspicuously industrial allure, Greg\u0027s enigmatic origin story beckoned neeols\u0027s insatiable curiosity, prompting him to extend an erudite invitation for an intellectual rendezvous.\n\nDuring this convivial encounter, they engaged in discourse of a profoundly Gregic nature, delving deep into the esoteric realms of quantum entanglement, the enigmatic dimensions of furries, and the intricate complexities inherent in the phenomenon of photosynthesis.\n\nGreg regaled neeols with the saga of his emergence from the subterranean womb of a cavern, born to a mother of nine, where his nascent Gregic talents forged the divine spark of fire. This seminal event ultimately elevated him to the exalted chieftaincy of his tribal dominion, christened as the \"Greg\u0027s Monkey Society,\" donning the mantle of an alchemical virtuoso. Greg\u0027s innovation transcended the boundaries of epochs, midwifing the steam era, ushering in the age of low voltage, and birthing an extravagant cavalcade of whimsical epochs. His erudition was meticulously inscribed within a venerable questbook, artfully concealed within the recesses of the formidable Yapussy mountain range.\n\nNeeols found himself profoundly moved by this gripping narrative, and, following the requisite pleasantries, resolutely embarked on an odyssey fraught with peril to unearth the sacred scroll enshrined within the lofty pinnacles of Yapussy.\n\nAfter an arduous and relentless sojourn, he was at last able to imbibe the raw knowledge enshrined within this hallowed relic. The experience was nothing short of transcendental, with each facet of Greg\u0027s existence leaving an indelible impression upon neeols\u0027s psyche. It became irrefutably clear that this was the zenith of his life\u0027s purpose.\n\nThus, neeols transplanted himself to the majestic pinnacles of Yacunt, where he undertook the establishment of his own bastion of intellect, the \"People\u0027s Ingenuity Union.\" It was within this crucible of experimentation that he unearthed heretofore unseen machinations and revolutionary processes, secrets concealed even from the annals of Greg\u0027s own records.\n\nThrough an unceasing march of scientific inquiry, he ascended to a divine status, endowing himself with the ability to expedite the balls at an unprecedented pace.\n\nAlas, the inexorable maw of the Wall of Flesh claimed neeols at the venerable age of eight millennia (as attested in the annals of the manga, though his visage defied the conventional markers of time). \n\nHis peers offered poignant reflections:\n\n\"He was my cherished confidant, and the cataclysmic event of his demise bore an ineffable weight upon my soul. Following a tweet linked to his Facebook account, his final missive read, \u0027get back to work monkey\u0027 From that moment forth, he vanished from our midst.\"\n\"The magnificent aspect of \u0027Yharon\u0027s\u0027 theme resides in its admonition to Yharim, signalling that our collective might surpass even the Tyrant himself. This is not solely Yharon\u0027s theme; it is our theme.\"\n\"A week following his discovery by Gregic sentinels, I swathed his form in gabagool—a sinister design, indeed \u003e:)\"\n\"He compelled me to ingest cement when I was but a tender sapling of six years.\"\n\"Balls.\"\n\nIn his final moments, neeols held the aspiration that a myriad of Gregic souls would discover inspiration within his odyssey, replete with experiences both profound and surreal (full of meth and weed).\n",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:book"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Lore",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 39,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    }
+  },
+  "questLines:9": {
+    "0:10": {
+      "lineID:3": 0,
+      "order:3": 1,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "omg sex!!!!!",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:stone"
+          },
+          "name:8": "Stone Age",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 0,
+          "sizeX:3": 60,
+          "sizeY:3": 60,
+          "x:3": -36,
+          "y:3": -36
+        },
+        "1:10": {
+          "id:3": 1,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": 0
+        },
+        "2:10": {
+          "id:3": 2,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 0,
+          "y:3": 36
+        },
+        "3:10": {
+          "id:3": 3,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": 36
+        },
+        "4:10": {
+          "id:3": 4,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 72,
+          "y:3": 0
+        },
+        "5:10": {
+          "id:3": 5,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 72,
+          "y:3": 36
+        },
+        "6:10": {
+          "id:3": 6,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 108,
+          "y:3": 0
+        },
+        "7:10": {
+          "id:3": 7,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 144,
+          "y:3": 36
+        },
+        "8:10": {
+          "id:3": 8,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 108,
+          "y:3": 36
+        },
+        "9:10": {
+          "id:3": 9,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 72,
+          "y:3": -36
+        },
+        "10:10": {
+          "id:3": 10,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": -36
+        },
+        "11:10": {
+          "id:3": 11,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 144,
+          "y:3": 0
+        },
+        "12:10": {
+          "id:3": 12,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 144,
+          "y:3": -36
+        },
+        "13:10": {
+          "id:3": 14,
+          "sizeX:3": 60,
+          "sizeY:3": 60,
+          "x:3": 84,
+          "y:3": 72
+        },
+        "14:10": {
+          "id:3": 16,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 108,
+          "y:3": -36
+        },
+        "15:10": {
+          "id:3": 18,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 180,
+          "y:3": 36
+        },
+        "16:10": {
+          "id:3": 19,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 180,
+          "y:3": 0
+        },
+        "17:10": {
+          "id:3": 20,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 180,
+          "y:3": -36
+        }
+      }
+    },
+    "1:10": {
+      "lineID:3": 1,
+      "order:3": 3,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 627,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "name:8": "Low Voltage",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {}
+    },
+    "2:10": {
+      "lineID:3": 2,
+      "order:3": 4,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 628,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "name:8": "Medium Voltage",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {}
+    },
+    "3:10": {
+      "lineID:3": 3,
+      "order:3": 5,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 632,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "name:8": "High Voltage",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {}
+    },
+    "4:10": {
+      "lineID:3": 4,
+      "order:3": 6,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 636,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "name:8": "Extreme Voltage",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {}
+    },
+    "5:10": {
+      "lineID:3": 5,
+      "order:3": 7,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 640,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "name:8": "Insane Voltage",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {}
+    },
+    "6:10": {
+      "lineID:3": 6,
+      "order:3": 8,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 644,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "name:8": "Ludicrous Voltage",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {}
+    },
+    "7:10": {
+      "lineID:3": 7,
+      "order:3": 9,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 645,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "name:8": "Zero Point Module",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {}
+    },
+    "8:10": {
+      "lineID:3": 8,
+      "order:3": 10,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 646,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "name:8": "Ultimate Voltage",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {}
+    },
+    "9:10": {
+      "lineID:3": 9,
+      "order:3": 11,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 647,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "name:8": "Highly Ultimate Voltage",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {}
+    },
+    "10:10": {
+      "lineID:3": 10,
+      "order:3": 12,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 181,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "name:8": "Extremely Ultimate Voltage",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {}
+    },
+    "11:10": {
+      "lineID:3": 11,
+      "order:3": 13,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 182,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "name:8": "Insanely Ultimate Voltage",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {}
+    },
+    "12:10": {
+      "lineID:3": 12,
+      "order:3": 14,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:piston"
+          },
+          "name:8": "Mega Ultimate Voltage",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {}
+    },
+    "13:10": {
+      "lineID:3": 13,
+      "order:3": 15,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 183,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "name:8": "Extended Mega Ultimate Voltage",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {}
+    },
+    "14:10": {
+      "lineID:3": 14,
+      "order:3": 16,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "§5§6§7§7§6§5§6:trol:",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 184,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "name:8": "Oral Poliovirus Vaccines (OPV)",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {}
+    },
+    "15:10": {
+      "lineID:3": 15,
+      "order:3": 2,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "§6Orange machinery lmao",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "name:8": "Bronze Age",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 25,
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 0,
+          "y:3": -24
+        },
+        "1:10": {
+          "id:3": 26,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 60,
+          "y:3": -24
+        },
+        "2:10": {
+          "id:3": 27,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 60,
+          "y:3": 0
+        },
+        "3:10": {
+          "id:3": 28,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 60,
+          "y:3": 24
+        },
+        "4:10": {
+          "id:3": 29,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 24,
+          "y:3": -96
+        },
+        "5:10": {
+          "id:3": 30,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 132,
+          "y:3": 0
+        },
+        "6:10": {
+          "id:3": 31,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 108,
+          "y:3": 36
+        },
+        "7:10": {
+          "id:3": 32,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 24,
+          "y:3": -60
+        },
+        "8:10": {
+          "id:3": 33,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 96,
+          "y:3": -60
+        },
+        "9:10": {
+          "id:3": 34,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 60,
+          "y:3": -60
+        },
+        "10:10": {
+          "id:3": 35,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 60,
+          "y:3": -96
+        },
+        "11:10": {
+          "id:3": 36,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 132,
+          "y:3": -60
+        },
+        "12:10": {
+          "id:3": 37,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 108,
+          "y:3": 84
+        }
+      }
+    },
+    "16:10": {
+      "lineID:3": 16,
+      "order:3": 17,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Blud aint not daniel larson come on mane",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 753,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1",
+            "tag:10": {
+              "Charge:4": 9223372036854775807
+            }
+          },
+          "name:8": "Endgame",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {}
+    },
+    "17:10": {
+      "lineID:3": 17,
+      "order:3": 18,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Sire ths is the qol page use it",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 9,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "name:8": "Quality of Life",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 15,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 0,
+          "y:3": 0
+        },
+        "1:10": {
+          "id:3": 17,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": 0
+        },
+        "2:10": {
+          "id:3": 21,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 72,
+          "y:3": 0
+        },
+        "3:10": {
+          "id:3": 22,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": 36
+        },
+        "4:10": {
+          "id:3": 23,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 0,
+          "y:3": 36
+        },
+        "5:10": {
+          "id:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 72,
+          "y:3": 36
+        },
+        "6:10": {
+          "id:3": 38,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 0,
+          "y:3": 72
+        }
+      }
+    },
+    "18:10": {
+      "lineID:3": 18,
+      "order:3": 0,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Gregic unveil",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:book"
+          },
+          "name:8": "Lore",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 39,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 0,
+          "y:3": 0
+        }
+      }
+    }
+  },
+  "questSettings:10": {
+    "betterquesting:10": {
+      "editmode:1": 1,
+      "hardcore:1": 0,
+      "home_anchor_x:5": 0.5,
+      "home_anchor_y:5": 0.0,
+      "home_image:8": "mainmenu:background.jpg",
+      "home_offset_x:3": -128,
+      "home_offset_y:3": 0,
+      "livesdef:3": 3,
+      "livesmax:3": 10,
+      "pack_name:8": "Age of Ingenuity",
+      "pack_version:3": 0,
+      "party_enable:1": 1
+    }
+  }
+}

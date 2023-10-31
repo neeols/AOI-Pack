@@ -1,0 +1,211 @@
+{
+	"images": {
+		"title": {
+			"image": "mainmenu:name.png",
+			"posX": -150,
+			"posY": 15,
+			"width": 300,
+			"height": 75,
+			"alignment": "top_center"
+		},
+		"frame": {
+			"image": "mainmenu:frame.png",
+			"posX": -152,
+			"posY": -27,
+			"width": 304,
+			"height": 104,
+			"alignment": "center"
+		}
+	},
+	"buttons": {
+		"singleplayer": {
+			"text": "menu.singleplayer",
+			"alignment": "center",
+			"posX": -150,
+			"posY": -25,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 200,
+			"imageHeight": 20,
+			"hoverTextColor": 16728128,
+			"clickSound": "block.lever.click",
+			"texture": "mainmenu:button.png",
+			"action": {
+				"type": "openGui",
+				"gui": "singleplayer"
+			}
+		},
+		"multiplayer": {
+			"text": "menu.multiplayer",
+			"alignment": "center",
+			"posX": -150,
+			"posY": -5,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 200,
+			"imageHeight": 20,
+			"texture": "mainmenu:button.png",
+			"hoverTextColor": 16728128,
+			"clickSound": "block.lever.click",
+			"action": {
+				"type": "openGui",
+				"gui": "multiplayer"
+			}
+		},
+		"mods": {
+			"text": "fml.menu.mods",
+			"alignment": "center",
+			"posX": -150,
+			"posY": 15,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 200,
+			"imageHeight": 20,
+			"tooltip": "#modsactive#/#modsloaded# mods loaded.",
+			"texture": "mainmenu:button.png",
+			"hoverTextColor": 16728128,
+			"clickSound": "block.lever.click",
+			"action": {
+				"type": "openGui",
+				"gui": "mods"
+			}
+		},
+		"options": {
+			"text": "Options",
+			"alignment": "center",
+			"posX": -150,
+			"posY": 35,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 200,
+			"imageHeight": 20,
+			"texture": "mainmenu:button.png",
+			"hoverTextColor": 16728128,
+			"clickSound": "block.lever.click",
+			"action": {
+				"type": "openGui",
+				"gui": "options"
+			}
+		},
+		"quit": {
+			"text": "menu.quit",
+			"hoverText": "You can never escape Greg.",
+			"alignment": "center",
+			"posX": -150,
+			"posY": 55,
+			"width": 300,
+			"height": 20,
+			"imageWidth": 200,
+			"imageHeight": 20,
+			"texture": "mainmenu:button.png",
+			"hoverTextColor": 11141120,
+			"clickSound": "block.lever.click",
+			"action": {
+				"type": "quit"
+			}
+		},
+		"discord": {
+			"text": "Discord Server",
+			"alignment": "center",
+			"posX": 0,
+			"posY": -25,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 200,
+			"imageHeight": 20,
+			"texture": "mainmenu:button.png",
+			"hoverTextColor": 16728128,
+			"clickSound": "block.lever.click",
+			"action": {
+				"type": "openLink",
+				"link": "https://discord.gg/PVvnukPx6E"
+			}
+		},
+		"github": {
+			"text": "Report A Bug",
+			"alignment": "center",
+			"posX": 0,
+			"posY": -5,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 200,
+			"imageHeight": 20,
+			"texture": "mainmenu:button.png",
+			"hoverTextColor": 16728128,
+			"clickSound": "block.lever.click",
+			"action": {
+				"type": "openLink",
+				"link": "https://github.com/neeols/age-of-ingenuity/issues"
+			}
+		},
+		"open_folder": {
+			"text": "Open MC Folder",
+			"alignment": "center",
+			"posX": 0,
+			"posY": 15,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 200,
+			"imageHeight": 20,
+			"texture": "mainmenu:button.png",
+			"hoverTextColor": 16728128,
+			"action": {
+				"type": "openFolder",
+				"folderName": "/"
+			}
+		},
+		"refresh": {
+			"text": "Refresh Menu",
+			"alignment": "center",
+			"posX": 0,
+			"posY": 35,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 200,
+			"imageHeight": 20,
+			"texture": "mainmenu:button.png",
+			"hoverTextColor": 16728128,
+			"clickSound": "block.lever.click",
+			"action": {
+				"type": "refresh"
+			}
+		}
+	},
+	"labels": {
+		"minecraft_version": {
+			"text": "Minecraft #mcversion#",
+			"hoverText": "Minecraft Coder Pack #mcpversion#",
+			"color": -1,
+			"posX": 2,
+			"posY": -32,
+			"alignment": "bottom_left"
+		},
+		"modinfo": {
+			"alignment": "bottom_left",
+			"text": "Forge Version: #forgeversion# | #modsactive# mods active out of #modsloaded#",
+			"hoverText": "FML Version: #fmlversion# | #modsactive# mods active out of #modsloaded#",
+			"color": -1,
+			"posX": 2,
+			"posY": -12
+		},
+		"credits": {
+			"text": "Copyright Mojang AB. Do not distribute!",
+			"color": -1,
+			"alignment": "bottom_left",
+			"posX": 198,
+			"posY": -22,
+			"anchor": "end",
+			"hoverText": "Click here to see the Minecraft credits",
+			"action": {
+				"type": "openGui",
+				"gui": "credits"
+			}
+		}
+	},
+	"other": {
+		"background": {
+			"image": "mainmenu:background.jpg",
+			"mode": "fill"
+		}
+	}
+}
