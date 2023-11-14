@@ -911,8 +911,7 @@
     },
     "9:10": {
       "preRequisites:11": [
-        6,
-        4
+        42
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -987,12 +986,6 @@
               "Damage:2": 0,
               "OreDict:8": "",
               "id:8": "enderio:item_endergy_conduit"
-            },
-            "4:10": {
-              "Count:3": 3,
-              "Damage:2": 335,
-              "OreDict:8": "ingotWroughtIron",
-              "id:8": "gregtech:meta_ingot"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1319,12 +1312,12 @@
     },
     "14:10": {
       "preRequisites:11": [
-        8
+        42
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Sire, you can macerate your copper and tin ingots with a mortar and pestle, mix the dusts, and fire the mix up in a furnace in order to get bronze ingots",
+          "desc:8": "Sire, put tin and 3 copper ingots in a primitive alloy smelter to get bronze.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -1390,24 +1383,6 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 3,
-              "Damage:2": 25,
-              "OreDict:8": "dustCopper",
-              "id:8": "gregtech:meta_dust"
-            },
-            "1:10": {
-              "Count:3": 1,
-              "Damage:2": 112,
-              "OreDict:8": "dustTin",
-              "id:8": "gregtech:meta_dust"
-            },
-            "2:10": {
-              "Count:3": 4,
-              "Damage:2": 260,
-              "OreDict:8": "dustBronze",
-              "id:8": "gregtech:meta_dust"
-            },
-            "3:10": {
               "Count:3": 1,
               "Damage:2": 260,
               "OreDict:8": "ingotBronze",
@@ -3048,6 +3023,212 @@
           "taskID:8": "bq_standard:checkbox"
         }
       }
+    },
+    "40:10": {
+      "preRequisites:11": [
+        18
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Sire, perlite is obtained from mining obsidian",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 2001,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_dust"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Perlite",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 40,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 2001,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "41:10": {
+      "preRequisites:11": [
+        18,
+        40
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Sire, construct this refractory cement to make the primitive alloy smelter",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "modpack:refractorycement"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Refractory Cement",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 41,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 28503,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            },
+            "1:10": {
+              "Count:3": 20,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "modpack:refractorycement"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "42:10": {
+      "preRequisites:11": [
+        41
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Sire, you need to construct this marvelous primitive alloy smelter to advance",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 32000,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Primitive Alloy Smelter",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 42,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "allowAnvil:1": 0,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 32000,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 15,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "modpack:refractorycementbricks"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -3138,14 +3319,14 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 72,
-          "y:3": -36
+          "y:3": 72
         },
         "10:10": {
           "id:3": 10,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 36,
-          "y:3": -36
+          "y:3": 72
         },
         "11:10": {
           "id:3": 11,
@@ -3165,8 +3346,8 @@
           "id:3": 14,
           "sizeX:3": 60,
           "sizeY:3": 60,
-          "x:3": 84,
-          "y:3": 72
+          "x:3": 96,
+          "y:3": 120
         },
         "14:10": {
           "id:3": 16,
@@ -3195,6 +3376,27 @@
           "sizeY:3": 24,
           "x:3": 180,
           "y:3": -36
+        },
+        "18:10": {
+          "id:3": 40,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 192,
+          "y:3": 72
+        },
+        "19:10": {
+          "id:3": 41,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 156,
+          "y:3": 72
+        },
+        "20:10": {
+          "id:3": 42,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 108,
+          "y:3": 72
         }
       }
     },

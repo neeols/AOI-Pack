@@ -10,6 +10,7 @@ import mods.gregtech.recipe.RecipeMap;
 import mods.gregtech.recipe.functions.IRunOverclockingLogicFunction;
 import mods.gregtech.recipe.IRecipeLogic;
 import mods.gregtech.recipe.IRecipe;
+import mods.gregtech.multiblock.Multiblock;
 
 import scripts.CommonVars.makeShaped as makeShaped;
 
@@ -35,10 +36,11 @@ val primitive_alloy_smelter = Builder.start("mbt:primitive_alloy_smelter")
             .maxOutputs(1)
             .build())
     .withBaseTexture(<metastate:modpack:refractorycement>)
-    .buildAndRegister();
+    .buildAndRegister() as Multiblock;
 
 primitive_alloy_smelter.hasMufflerMechanics = false;
 primitive_alloy_smelter.hasMaintenanceMechanics = false;
+primitive_alloy_smelter.noEnergy = true;
 
 recipes.addShaped("primitive_alloy_smelter", <metaitem:mbt:primitive_alloy_smelter>, [
     [<gregtech:meta_plate:51>, <modpack:refractorycement>, <gregtech:meta_plate:51>],

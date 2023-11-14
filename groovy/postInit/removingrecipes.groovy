@@ -63,3 +63,5 @@ mods.gregtech.primitive_blast_furnace.removeByInput(1, [metaitem('blockWroughtIr
 mods.gregtech.primitive_blast_furnace.removeByInput(1, [metaitem('blockWroughtIron'), metaitem('blockCharcoal') * 2], null)
 // Block of Steel * 1
 mods.gregtech.primitive_blast_furnace.removeByInput(1, [metaitem('blockWroughtIron'), metaitem('blockCoke')], null)
+crafting.remove("gregtech:dust_bronze")
+crafting.remove("gregtech:potin_dust")

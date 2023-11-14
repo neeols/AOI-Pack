@@ -1,8 +1,8 @@
-[19:34:02] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
-[19:34:02] [Client thread/INFO] [JourneymapClient] initialize ENTER
-[19:34:02] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[19:34:02] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
-[19:34:03] [Client thread/INFO] [?] Version: JourneyMap 1.12.2-5.7.1, built with Forge 14.23.5.2768
+[12:37:09] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
+[12:37:09] [Client thread/INFO] [JourneymapClient] initialize ENTER
+[12:37:09] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[12:37:09] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[12:37:09] [Client thread/INFO] [?] Version: JourneyMap 1.12.2-5.7.1, built with Forge 14.23.5.2768
 Forge: 14.23.5.2859
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
 Features: 
@@ -19,24 +19,31 @@ FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.7
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.7.1, autoRemoveDeathpointDistance=2, createDeathpoints=true, showName=true, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, maxDistance=0, autoHideLabel=true, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, minDistance=4, timeFormat=HH:mm:ss, boldLabel=false, textureSmall=true, showDeathpointlabel=true, showDistance=true, showRotatingBeam=true, fontScale=2, showTexture=true, managerEnabled=true, beaconEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.7.1, zoomLevel=0, showWaypoints=true, showCaves=true, showSelf=true, port=8080, showGrid=true, showEntityNames=true, enabled=false, preferredMapType=day}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.7.1, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, renderOverlayEventTypeName=ALL, mapBlendWater=false, renderDistanceSurfaceMax=7, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=Circle, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, browserPoll=2000, mapBlendFoliage=true, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=3, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=null, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, renderOverlayPreEvent=true, autoMapPoll=2000}
-[19:34:03] [Client thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.4
-[19:34:03] [Client thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[19:34:03] [Client thread/INFO] [PluginHelper] Initialized IClientPlugin: com.feed_the_beast.ftbutilities.integration.JourneyMapIntegration
-[19:34:03] [Client thread/INFO] [PluginHelper] Initialized IClientPlugin: com.teamacronymcoders.base.modules.journeymap.JourneyMapPlugin
-[19:34:03] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg ?ms
-[19:34:05] [Client thread/DEBUG] [JourneymapClient] postInitialize ENTER
-[19:34:05] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.KeyEventHandler
-[19:34:05] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.ChatEventHandler
-[19:34:05] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.StateTickHandler
-[19:34:05] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WorldEventHandler
-[19:34:05] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WaypointBeaconHandler
-[19:34:05] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.TextureAtlasHandler
-[19:34:05] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.MiniMapOverlayHandler
-[19:34:05] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.PlayerConnectHandler
-[19:34:05] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.world.ChunkMonitor
-[19:34:05] [Client thread/ERROR] [FileHandler] Couldn't locate icons for Default: C:\Users\azaza\AppData\Roaming\PrismLauncher\instances\Age%20of%20Ingenuity\minecraft\mods\journeymap-1.12.2-5.7.1.jar\assets\journeymap\icon\entity
-[19:34:05] [Client thread/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
-[19:34:05] [Client thread/TRACE] [ThemeLoader] Initializing themes ...
-[19:34:05] [Client thread/ERROR] [FileHandler] Couldn't locate icons for flat: C:\Users\azaza\AppData\Roaming\PrismLauncher\instances\Age%20of%20Ingenuity\minecraft\mods\journeymap-1.12.2-5.7.1.jar\assets\journeymap\theme\flat
-[19:34:05] [Client thread/INFO] [ThemeLoader] Preloaded theme textures: 0
-[19:34:05] [Client thread/DEBUG] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r246.78§8ms§r
+[12:37:09] [Client thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.4
+[12:37:09] [Client thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[12:37:09] [Client thread/INFO] [PluginHelper] Initialized IClientPlugin: com.feed_the_beast.ftbutilities.integration.JourneyMapIntegration
+[12:37:09] [Client thread/INFO] [PluginHelper] Initialized IClientPlugin: com.teamacronymcoders.base.modules.journeymap.JourneyMapPlugin
+[12:37:09] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg ?ms
+[12:37:11] [Client thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[12:37:11] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.KeyEventHandler
+[12:37:11] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.ChatEventHandler
+[12:37:11] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.StateTickHandler
+[12:37:11] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WorldEventHandler
+[12:37:11] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WaypointBeaconHandler
+[12:37:11] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.TextureAtlasHandler
+[12:37:11] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.MiniMapOverlayHandler
+[12:37:11] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.PlayerConnectHandler
+[12:37:11] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.world.ChunkMonitor
+[12:37:11] [Client thread/ERROR] [FileHandler] Couldn't locate icons for Default: C:\Users\azaza\AppData\Roaming\PrismLauncher\instances\Age%20of%20Ingenuity\minecraft\mods\journeymap-1.12.2-5.7.1.jar\assets\journeymap\icon\entity
+[12:37:11] [Client thread/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
+[12:37:11] [Client thread/TRACE] [ThemeLoader] Initializing themes ...
+[12:37:11] [Client thread/ERROR] [FileHandler] Couldn't locate icons for flat: C:\Users\azaza\AppData\Roaming\PrismLauncher\instances\Age%20of%20Ingenuity\minecraft\mods\journeymap-1.12.2-5.7.1.jar\assets\journeymap\theme\flat
+[12:37:11] [Client thread/INFO] [ThemeLoader] Preloaded theme textures: 0
+[12:37:11] [Client thread/DEBUG] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r177.4§8ms§r
+[12:37:26] [Client thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
+[12:37:26] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[12:37:26] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[12:37:26] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\azaza\AppData\Roaming\PrismLauncher\instances\Age of Ingenuity\minecraft\journeymap\data\sp\New Modded World\waypoints
+[12:37:26] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\azaza\AppData\Roaming\PrismLauncher\instances\Age of Ingenuity\minecraft\journeymap\data\sp\New Modded World\DIM0. Memory: 8323MB total, 4025MB free 
+[12:37:26] [Client thread/INFO] [ChatLog] JourneyMap: Press [J]
+[13:04:29] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\azaza\AppData\Roaming\PrismLauncher\instances\Age of Ingenuity\minecraft\journeymap\data\sp\New Modded World\DIM0
