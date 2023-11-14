@@ -6,6 +6,7 @@ import gregtech.api.unification.material.properties.ToolProperty
 import gregtech.api.unification.material.properties.BlastProperty
 import gregtech.api.fluids.fluidType.FluidType
 
+//28001-28500
 
 event_manager.listen { MaterialEvent event ->
 

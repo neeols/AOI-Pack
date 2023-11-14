@@ -43,3 +43,35 @@ item('minecraft:sand'),
 item('minecraft:sand'),
 item('minecraft:sand'),
 item('minecraft:sand')])
+
+crafting.addShapeless('limestonedust', item('gregtech:meta_dust', 28501),
+[item('chisel:limestone2', 7), 
+ore('craftingToolMortar')])
+
+furnace.add(item('gregtech:meta_dust', 28501), item('gregtech:meta_dust', 28502)) // burned limestone
+
+crafting.addShapeless('firecement', item('gregtech:meta_dust:28503'),
+[item('gregtech:meta_dust', 28502), 
+item('gregtech:meta_dust', 2525),
+item('gregtech:meta_dust', 2525),
+item('minecraft:sand')])
+
+crafting.shapedBuilder()
+        .name('refractorycement')
+        .output(item('modpack:refractorycement') * 5)
+        .matrix('   ',
+                'ACA',
+                'ABA')
+        .key('A', ore('dustPerlite'))
+        .key('B', item('gregtech:meta_dust', 28503))
+        .key('C', item('minecraft:water_bucket'))
+        .register()
+
+crafting.shapedBuilder()
+        .name('refractorycementbricks')
+        .output(item('modpack:refractorycementbricks') * 4)
+        .matrix('AA ',
+                'AA ',
+                '   ')
+        .key('A', item('modpack:refractorycement'))
+        .register()

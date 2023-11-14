@@ -1,7 +1,7 @@
 {
   "variants": {
     "normal": {
-      "model": "nomifactory:compressedmethblock"
+      "model": "modpack:compressedmethblock"
     }
   }
 }

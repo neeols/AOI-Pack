@@ -1,9 +1,3 @@
-material.conductive_iron=Conductive Iron
-material.pulsating_iron=Pulsating Iron
-material.energetic_alloy=Energetic Alloy
-material.vibrant_alloy=Vibrant Alloy
-material.dark_steel=Dark Steel
-material.electrical_steel=Electrical Steel
-material.end_steel=End Steel
-material.soularium=Soularium
-material.redstone_alloy=Redstone Alloy
+multiblocktweaker.machine.primitive_alloy_smelter.name=Primitive Alloy Smelter
+mbt.machine.primitive_alloy_smelter.name=Primitive Alloy Smelter
+recipemap.primitive_alloy_smelter.name=Primitive Alloy Smelter

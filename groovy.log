@@ -1,2 +1,19 @@
-============  GroovyLog  ====  29.10.2023  ============
+============  GroovyLog  ====  13.11.2023  ============
 GroovyScript version: 0.6.4
+[19:33:21] [CLIENT/INFO] [groovyscript]: Running scripts in loader 'preInit'
+[19:33:22] [CLIENT/INFO] [groovyscript]:  - executing classes\Util.groovy
+[19:33:22] [CLIENT/INFO] [groovyscript]:  - executing classes\items\ItemDrug.groovy
+[19:33:22] [CLIENT/INFO] [groovyscript]:  - executing preInit\BBItems.groovy
+[19:33:23] [CLIENT/INFO] [groovyscript]:  - executing preInit\BBMaterials.groovy
+[19:33:23] [CLIENT/INFO] [groovyscript]:  - executing preInit\Items.groovy
+[19:33:23] [CLIENT/INFO] [groovyscript]:  - executing preInit\SteamAgeMaterials.groovy
+[19:34:04] [CLIENT/INFO] [groovyscript]: Running scripts in loader 'init'
+[19:34:04] [CLIENT/INFO] [groovyscript]:  - executing classes\Util.groovy
+[19:34:04] [CLIENT/INFO] [groovyscript]:  - executing classes\items\ItemDrug.groovy
+[19:34:04] [CLIENT/INFO] [groovyscript]:  - executing init\AddOreDicts.groovy
+[19:34:05] [CLIENT/INFO] [groovyscript]: Running scripts in loader 'postInit'
+[19:34:05] [CLIENT/INFO] [groovyscript]:  - executing classes\Util.groovy
+[19:34:05] [CLIENT/INFO] [groovyscript]:  - executing classes\items\ItemDrug.groovy
+[19:34:05] [CLIENT/INFO] [groovyscript]:  - executing postInit\BBRecipes.groovy
+[19:34:06] [CLIENT/INFO] [groovyscript]:  - executing postInit\addingrecipes.groovy
+[19:34:06] [CLIENT/INFO] [groovyscript]:  - executing postInit\removingrecipes.groovy
