@@ -1,3 +1,6 @@
+//bro the guy needs to fucking update mbt
+
+
 import mods.gregtech.multiblock.Builder;
 import mods.gregtech.multiblock.FactoryBlockPattern;
 import mods.gregtech.multiblock.RelativeDirection;
@@ -40,14 +43,14 @@ val primitive_alloy_smelter = Builder.start("mbt:primitive_alloy_smelter")
 
 primitive_alloy_smelter.hasMufflerMechanics = false;
 primitive_alloy_smelter.hasMaintenanceMechanics = false;
-primitive_alloy_smelter.noEnergy = true;
+//primitive_alloy_smelter.noEnergy = true;
 
 recipes.addShaped("primitive_alloy_smelter", <metaitem:mbt:primitive_alloy_smelter>, [
     [<gregtech:meta_plate:51>, <modpack:refractorycement>, <gregtech:meta_plate:51>],
     [<modpack:refractorycement>, <ore:craftingToolWrench>, <modpack:refractorycement>],
     [<gregtech:meta_plate:51>, <modpack:refractorycement>, <gregtech:meta_plate:51>]
 ]);
-
+/*
 primitive_alloy_smelter.recipeMap
     .recipeBuilder()
     .duration(300)
@@ -193,6 +196,6 @@ primitive_alloy_smelter.recipeMap
     .duration(300)
     .inputs(<gregtech:meta_dust:25> * 6, <gregtech:meta_dust:112> * 2, <gregtech:meta_ingot:55> * 1, <minecraft:coal> * 1)
     .outputs(<gregtech:meta_ingot:2037> * 1) // potin
-    .buildAndRegister();
+    .buildAndRegister();*/
 
-
+// no eu recipes dont work with mbt

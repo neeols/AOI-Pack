@@ -3,10 +3,18 @@
   "packId": "modpack",
   "version": "1.0.0",
   "debug": false,
-  "classes": ["classes/Util.groovy", "classes/items/ItemDrug.groovy"],
+  "classes": {
+    "preInit": [
+      "classes/preInit/",
+      "classes/Util.groovy", 
+      "classes/items/ItemDrug.groovy"
+    ],
+    "init": [
+      "classes/init/"
+    ]
+  },
   "loaders": {
     "preInit": [
-      "classes/",
       "preInit/"
     ],
     "init": [

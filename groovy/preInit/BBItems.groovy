@@ -7,8 +7,7 @@ import net.minecraft.item.Item
 import static Util.createItem
 import static Util.createBlock
 
-def creativeTab = content.createCreativeTab("modpack.creative_tab", item('gregtech:machine', 32000))
-content.setDefaultCreativeTab(creativeTab)
+def creativeTab = content.createCreativeTab("modpack.breaking_greg", item("minecraft:sand"))
 
 // items
 
@@ -40,19 +39,19 @@ Potion [] potions = [
 
 for (String drugName : drugs) {
 
-    Item drug = new ItemDrug(0, 0, content.getDefaultTab()).setRarity(EnumRarity.EPIC)
+    Item drug = new ItemDrug(0, 0, creativeTab).setRarity(EnumRarity.EPIC)
 
     switch(drugName) {
         case "crystalmeth":
             for (Potion potion : potions) {
-                 drug.addPotionEffect(potion, 1200, 5)
+                 drug.addPotionEffect(potion, 1200, 4)
             }
             drug.setSyringe(false)
         break
 
         case "methsyringe":
             for (Potion potion : potions) {
-                 drug.addPotionEffect(potion, 1200, 20)
+                 drug.addPotionEffect(potion, 1200, 5)
             }
             drug.setSyringe(true)
         break

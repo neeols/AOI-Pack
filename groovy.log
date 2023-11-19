@@ -1,19 +1,18 @@
-============  GroovyLog  ====  14.11.2023  ============
+============  GroovyLog  ====  19.11.2023  ============
 GroovyScript version: 0.6.4
-[12:36:29] [CLIENT/INFO] [groovyscript]: Running scripts in loader 'preInit'
-[12:36:30] [CLIENT/INFO] [groovyscript]:  - executing classes\Util.groovy
-[12:36:31] [CLIENT/INFO] [groovyscript]:  - executing classes\items\ItemDrug.groovy
-[12:36:31] [CLIENT/INFO] [groovyscript]:  - executing preInit\BBItems.groovy
-[12:36:31] [CLIENT/INFO] [groovyscript]:  - executing preInit\BBMaterials.groovy
-[12:36:31] [CLIENT/INFO] [groovyscript]:  - executing preInit\Items.groovy
-[12:36:31] [CLIENT/INFO] [groovyscript]:  - executing preInit\SteamAgeMaterials.groovy
-[12:37:10] [CLIENT/INFO] [groovyscript]: Running scripts in loader 'init'
-[12:37:10] [CLIENT/INFO] [groovyscript]:  - executing classes\Util.groovy
-[12:37:10] [CLIENT/INFO] [groovyscript]:  - executing classes\items\ItemDrug.groovy
-[12:37:10] [CLIENT/INFO] [groovyscript]:  - executing init\AddOreDicts.groovy
-[12:37:11] [CLIENT/INFO] [groovyscript]: Running scripts in loader 'postInit'
-[12:37:12] [CLIENT/INFO] [groovyscript]:  - executing classes\Util.groovy
-[12:37:12] [CLIENT/INFO] [groovyscript]:  - executing classes\items\ItemDrug.groovy
-[12:37:12] [CLIENT/INFO] [groovyscript]:  - executing postInit\BBRecipes.groovy
-[12:37:12] [CLIENT/INFO] [groovyscript]:  - executing postInit\addingrecipes.groovy
-[12:37:12] [CLIENT/INFO] [groovyscript]:  - executing postInit\removingrecipes.groovy
+[00:38:29] [CLIENT/INFO] [groovyscript]: Running scripts in loader 'preInit'
+[00:38:30] [CLIENT/INFO] [groovyscript]:  - executing classes\Util.groovy
+[00:38:31] [CLIENT/INFO] [groovyscript]:  - executing classes\items\ItemDrug.groovy
+[00:38:31] [CLIENT/INFO] [groovyscript]:  - executing preInit\BBItems.groovy
+[00:38:31] [CLIENT/INFO] [groovyscript]:  - executing preInit\BBMaterials.groovy
+[00:38:31] [CLIENT/INFO] [groovyscript]:  - executing preInit\BGFO_preinit.groovy
+[00:38:31] [CLIENT/INFO] [groovyscript]:  - executing preInit\Items.groovy
+[00:38:31] [CLIENT/INFO] [groovyscript]:  - executing preInit\SteamAgeMaterials.groovy
+[00:39:12] [CLIENT/INFO] [groovyscript]: Running scripts in loader 'init'
+[00:39:12] [CLIENT/INFO] [groovyscript]:  - executing init\AddOreDicts.groovy
+[00:39:12] [CLIENT/INFO] [groovyscript]:  - executing init\BGFO_oredicts.groovy
+[00:39:13] [CLIENT/INFO] [groovyscript]: Running scripts in loader 'postInit'
+[00:39:13] [CLIENT/INFO] [groovyscript]:  - executing postInit\BBRecipes.groovy
+[00:39:13] [CLIENT/INFO] [groovyscript]:  - executing postInit\BGFO_postinit.groovy
+[00:39:13] [CLIENT/INFO] [groovyscript]:  - executing postInit\addingrecipes.groovy
+[00:39:13] [CLIENT/INFO] [groovyscript]:  - executing postInit\removingrecipes.groovy
