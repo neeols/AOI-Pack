@@ -16,3 +16,5 @@ createItem("steampiston")
 
 createBlock("refractorycement")
 createBlock("refractorycementbricks")
+
+//modpack:refractorycementbricks (i need to get the metastate somehow from within the java mod)

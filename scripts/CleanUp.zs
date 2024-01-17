@@ -42,17 +42,6 @@ if(!isNull(mod)) {
     }
 }
 
-mod = loadedMods["aeadditions"];
-if(!isNull(mod)) {
-    modItems = mod.items;
-
-    for item in modItems {
-        if(item.displayName has "ME Fluid Pattern") {
-            mods.jei.JEI.hide(item); 
-        }
-    }
-}
-
 mod = loadedMods["forestry"];
 if(!isNull(mod)) {
     modItems = mod.items;
@@ -163,8 +152,6 @@ recipes.remove(<appliedenergistics2:grindstone>);
 rh(<appliedenergistics2:grindstone>);
 recipes.remove(<appliedenergistics2:vibration_chamber>);
 rh(<appliedenergistics2:vibration_chamber>);
-recipes.remove(<aeadditions:vibrantchamberfluid>);
-rh(<aeadditions:vibrantchamberfluid>);
 
 oreDictEntry = <ore:dustEnder>;
 oreDictEntry.remove(<appliedenergistics2:material:46>);
